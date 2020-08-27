@@ -1,0 +1,1 @@
+console.log({i:"teste"}.i.toString())

@@ -1,0 +1,1 @@
+console.log("àêíüõç".normalize("NFD").replace(/[^a-zA-Zs]/g, ""))
