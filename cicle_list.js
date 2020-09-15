@@ -14,7 +14,12 @@ for (let i = 0; i < list.length; i++) {
     }
     id++
 }
-console.log(list)
+console.log(list.reduce((output,item)=>{
+    return [...output,{
+        id:item.id,
+        next:item.next,
+    }]
+},[]))
 cicle(list,4)
 function cicle(list,i) {
     console.log("starting from: "+i)

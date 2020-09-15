@@ -1,0 +1,1 @@
+console.log("Things will be bright in P.M.  A cop will shine a light in your face.[fortune]".toLowerCase().includes("fortune"))
