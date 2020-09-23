@@ -1,1 +1,1 @@
-console.log({i:"teste"}.i.toString())
+console.log(typeof {i:"teste"}.i==="string")
